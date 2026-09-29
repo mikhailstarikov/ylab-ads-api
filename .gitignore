@@ -39,6 +39,3 @@ Thumbs.db
 
 # Pytest
 .pytest_cache/
-
-# uv
-uv.lock

@@ -24,6 +24,12 @@ sudo -u postgres psql -c "CREATE DATABASE ylab_ads;"
 
 1. Установите зависимости:
 
+Современный способ установки зависимостей:
+
+uv sync
+
+Альтернативный способ установки зависимостей:
+
 uv pip install -r requirements.txt
 
 1. Примените миграции:
