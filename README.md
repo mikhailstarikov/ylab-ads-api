@@ -18,11 +18,11 @@ API будет доступно на <http://localhost:8000/api/ads/>
 
 ### Локальная разработка
 
-1. Создайте базу данных PostgreSQL:
+### 1. Создайте базу данных PostgreSQL
 
 sudo -u postgres psql -c "CREATE DATABASE ylab_ads;"
 
-1. Установите зависимости:
+### 2. Установите зависимости
 
 Современный способ установки зависимостей:
 
@@ -32,12 +32,12 @@ uv sync
 
 uv pip install -r requirements.txt
 
-1. Примените миграции:
+### 3. Примените миграции
 
 python manage.py migrate
 python manage.py loaddata authors
 
-1. Запустите сервер:
+### 4. Запустите сервер
 
 python manage.py runserver
 
